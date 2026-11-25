@@ -69,14 +69,12 @@
           <p class="tag">Percepción + SLAM</p>
           <h3>Impacto de la percepción semántica en LiDAR SLAM</h3>
           <p>Metodología e infraestructura software modular para evaluar de forma sistemática cómo afecta el filtrado de nubes de puntos guiado por percepción (detectores 3D sobre LiDAR y cámara, incluido un detector de vocabulario abierto, y segmentación semántica) a la precisión de algoritmos de LiDAR SLAM.</p>
-          <p class="finding"><strong>Hallazgo:</strong> eliminar de forma agresiva los puntos asociados a objetos degrada la localización, mientras que restringir la nube al campo de visión de la cámara mejora el error absoluto de trayectoria (APE). Es una advertencia útil frente a la integración «ingenua» de la semántica en SLAM.</p>
           <p class="links"><a href="#software">Código</a> · <a href="https://hdl.handle.net/10115/477837">TFG</a></p>
         </article>
         <article class="card result">
           <p class="tag">Navegación</p>
           <h3>Traversabilidad aprendida de la experiencia</h3>
           <p><em>I Move Therefore I Learn</em>: un método con el que el robot aprende qué terrenos puede atravesar a partir de su propia experiencia de navegación, sin necesidad de datos etiquetados ni de conocer explícitamente la clase del terreno. Combina mapas de elevación y textura, un autocodificador variacional y agrupamiento BIRCH.</p>
-          <p class="finding"><strong>Validación:</strong> bancos de prueba sintéticos y escenarios reales con robots de ruedas y de patas, con implementación abierta en ROS 2.</p>
           <p class="links"><a href="https://doi.org/10.1109/ACCESS.2026.3714119">Artículo (IEEE Access)</a></p>
         </article>
         <article class="card result">
@@ -144,7 +142,7 @@
         <a class="card repo" href="https://github.com/IntelligentRoboticsLabs/global_navigation">
           <h3>global_navigation</h3>
           <p>Implementación ROS 2 del método de traversabilidad basada en experiencia, con los rosbags necesarios para reproducir los resultados.</p>
-          <p class="meta">ROS 2 Jazzy</p>
+          <p class="meta">ROS 2 Jazzy · Apache 2.0</p>
         </a>
       </div>
     </div>
